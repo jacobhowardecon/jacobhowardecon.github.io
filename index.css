@@ -7,7 +7,7 @@ body {
 	background-color: White;
 	display: flex;
 	justify-content: center;
-	flex-direction: row; 
+	flex-wrap: wrap;
 	}
 	
 .column1of3 {
