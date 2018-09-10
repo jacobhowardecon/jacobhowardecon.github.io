@@ -1,0 +1,43 @@
+* {	
+	font-family: palatino,Arial;
+	font-size: 16px;
+	}
+
+body {
+	background-color: White;
+	display: flex;
+	justify-content: center;
+	flex-direction: row; 
+	}
+	
+.column1of3 {
+	width: 100%; 
+	max-width: 250px;
+	margin: auto;
+	float: left;
+	}
+	
+.column2of3 {
+	width: 100%; 
+	height: 100%;
+	max-width: 500px;
+	max-height: 500px;
+	text-align: center;
+	margin: auto;
+	float: left;
+	}
+	
+.column3of3 {
+    height: 400px;
+    width: 100%; 
+    max-width: 300px;
+    overflow: scroll;
+    margin: auto;
+    float: left;
+    }
+	
+
+a:link {color: rgb(102,205,170);}
+a:visited {color: rgb(251,149,139);}
+a:hover {color: rgb(55,90,37);}
+	
