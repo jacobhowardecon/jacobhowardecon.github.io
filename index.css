@@ -3,37 +3,44 @@
 	font-size: 16px;
 	}
 
-body {
+article {
 	background-color: White;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
+	max-width: 1080px;
+	margin: auto;
+	float: none;
 	}
+
+.group {	
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	height: 100%
+	max-height: 1000px;
+	margin-top: 100px; 
+	}  
 	
 .column1of3 {
 	width: 100%; 
 	max-width: 250px;
 	margin: auto;
-	float: left;
 	}
 	
 .column2of3 {
 	width: 100%; 
 	height: 100%;
 	max-width: 500px;
-	max-height: 500px;
+	max-height: 200px;
 	text-align: center;
-	margin: auto;
-	float: left;
 	}
 	
 .column3of3 {
-    height: 400px;
-    width: 100%; 
-    max-width: 300px;
+    width: 100%
+    max-width: 500px;
+    height: 350px;
     overflow: scroll;
-    margin: auto;
-    float: left;
     }
 	
 
