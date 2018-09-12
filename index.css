@@ -51,7 +51,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: rgb(210,210,210);}
 
-@media screen and (max-device-width: 765px){ 
+@media screen and (max-device-width: 775px){ 
     ul.topnav li.logo {float: none;} 
     ul.menu{float: none;
     display: inline-block;
@@ -60,7 +60,7 @@ ul.topnav li a:hover {background-color: rgb(210,210,210);}
     *zoom: 1;}
 }
 
-@media screen and (max-width: 765px){ 
+@media screen and (max-width: 775px){ 
     ul.topnav li.logo {float: none;}
     ul.menu{float: none;
     display: inline-block;
@@ -89,6 +89,7 @@ article {
 	width: 100%; 
 	max-width: 250px;
 	margin: auto;
+	padding: 5px;
 	}
 	
 .column2of3 {
