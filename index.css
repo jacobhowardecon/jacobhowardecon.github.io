@@ -17,6 +17,7 @@ ul.topnav {
     height: 1px;
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+    max-width: 1080px;
 }
 
 ul.topnav li{ float: left;}
@@ -30,11 +31,22 @@ ul.topnav li.logo {
 	float: left;
 }	
 
+@media screen and (max-width: 300px) {
+    .logo {
+        float: none !important; 
+        margin: auto !important;
+    }
+}
+
+
+
+
 a.active {text-decoration: underline;}
 
 ul.menu {float: right; 
 	list-style: none;
 	margin-right: 10px;
+	max-width: 1080px;
 }
 
 ul.topnav li a {
