@@ -1,21 +1,45 @@
 * {	
-	font-family: palatino,Arial;
+	font-family: 'Fjord One', serif;
 	font-size: 16px;
 	}
+	
 
 ul.topnav {
     list-style-type: none;
-    margin: 0;
+    margin-top:50px;
     padding: 0;
     overflow: hidden;
-    text-align: center;  
+    text-align: center; 
 }
 
-ul.topnav li {display:inline;}
+.sexy_line { 
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+ul.topnav li{ float: left;}
+
+
+ul.topnav li.logo {
+	font-family: 'Bungee Hairline', cursive;
+	font-size: 30px;
+	margin-left: 15px;
+	margin-top: 15px;
+	float: left;
+}	
+
+
+ul.menu {float: right; 
+	list-style: none;
+	margin-right: 10px;
+}
 
 ul.topnav li a {
     display: block;
     color: rgb(0,206,209);
+    color: rgb(0,0,0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -23,12 +47,9 @@ ul.topnav li a {
     font-size: 20px;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: rgb(210,210,210);}
+ul.topnav li a:hover {background-color: rgb(210,210,210);}
 
-ul.topnav li a.active {
-	color: rgb(251,149,139);
-	text-decoration: underline; 
-	}
+
 
 @media screen and (max-width: 600px){ 
     ul.topnav li {float: none;
@@ -52,9 +73,9 @@ article {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	height: 100%
+/*	height: 100%
 	max-height: 1000px;
-	margin-top: 50px; 
+	margin-top: 10px; */
 	}  
 	
 .column1of3 {
@@ -67,7 +88,7 @@ article {
 	width: 100%; 
 	height: 100%;
 	max-width: 500px;
-	max-height: 200px;
+/*	max-height: 200px; */
 	text-align: center;
 	margin-bottom: 50px;
 	}
@@ -75,10 +96,22 @@ article {
 .column3of3 {
     width: 100%
     max-width: 500px;
-    height: 350px;
-    overflow: scroll;
+/*    height: 350px; */
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: nowrap;
     }
+    
+.info {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
 	
+}
+ 	
+
 
 a:link {color: rgb(102,205,170);}
 a:visited {color: rgb(251,149,139);}
