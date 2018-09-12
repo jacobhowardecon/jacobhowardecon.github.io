@@ -52,15 +52,17 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: rgb(210,210,210);}
 
-
-
-@media screen and (max-device-width: 600px){ 
-    ul.topnav li {float: none;
-    	display: initial;}
+@media screen and (max-device-width: 765px){ 
+    ul.topnav li.logo {float: none;} 
     ul.topnav li a {
     	display: initial;} 
 }
 
+@media screen and (max-width: 765px){ 
+    ul.topnav li.logo {float: none;}
+    ul.topnav li a {
+    	display: initial;} 
+}
 
 article {
 	background-color: White;
