@@ -40,7 +40,6 @@ ul.menu {float: right;
 }
 
 ul.topnav li a {
-    display: block;
     color: rgb(0,206,209);
     color: rgb(0,0,0);
     text-align: center;
@@ -54,14 +53,20 @@ ul.topnav li a:hover {background-color: rgb(210,210,210);}
 
 @media screen and (max-device-width: 765px){ 
     ul.topnav li.logo {float: none;} 
-    ul.topnav li a {
-    	display: initial;} 
+    ul.menu{float: none;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;}
 }
 
 @media screen and (max-width: 765px){ 
     ul.topnav li.logo {float: none;}
-    ul.topnav li a {
-    	display: initial;} 
+    ul.menu{float: none;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;}   
 }
 
 article {
@@ -126,4 +131,5 @@ a:hover {
 	color: rgb(0,0,0);
 	text-decoration: underline;
 }
-	
+br { font-size: 150%; }
+
