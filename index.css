@@ -54,7 +54,7 @@ ul.topnav li a:hover {background-color: rgb(210,210,210);}
 
 
 
-@media screen and (max-width: 600px){ 
+@media screen and (max-device-width: 600px){ 
     ul.topnav li {float: none;
     	display: initial;}
     ul.topnav li a {
