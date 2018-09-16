@@ -26,8 +26,9 @@ ul.topnav li{ float: left;}
 
 
 ul.topnav li.logo {
-	font-family: 'Bungee Hairline', cursive;
-	font-size: 30px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 100;
+	font-size: 35px;
 	margin-left: 15px;
 	margin-top: 15px;
 	float: left;
