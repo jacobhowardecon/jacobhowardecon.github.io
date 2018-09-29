@@ -115,12 +115,10 @@ article {
 	flex-wrap: nowrap;
 }
     
-.info {
+td {
 	text-align: center;
-	display: flex;
-	flex-direction: column;
-	padding: 10px;
-	
+	padding:0px 10px 0px 10px;
+	border-collapse: collapse;
 }
  	
 a {
