@@ -38,6 +38,7 @@ ul.topnav li.logo {
 ul.menu {float: right; 
 	list-style: none;
 	margin-right: 10px;
+	
 }
 
 ul.topnav li a {
@@ -120,6 +121,8 @@ td {
 	padding:0px 10px 0px 10px;
 	border-collapse: collapse;
 }
+table {
+	margin-top: 0;}
  	
 a {
 font-family:'Dosis', sans-serif;
