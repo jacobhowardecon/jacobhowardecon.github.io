@@ -1,0 +1,98 @@
+* {	
+	font-family: 'Fjord One', serif;
+	font-size: 16px;
+	}
+	
+
+article {
+	background-color: White;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: auto;
+	float: none;
+	padding: 20px;
+	text-align: justify;
+}
+	
+.article ul {
+	list-style: none;
+}
+
+.paper a{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.paper {
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin: none
+}
+
+.note {
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px;
+	font-weight: 200;
+}
+
+.abstract {
+	font-size: 5px;
+	margin: 15px 0px 40px 0px;
+	text-align: justify;
+    text-justify: inter-word;
+}    
+
+a {
+	font-family:'Dosis', sans-serif;
+}
+
+a:link {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(0,0,0);
+	text-decoration: underline;
+}
+
+br { font-size: 150%; }
+
+.header {
+	background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),
+	url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/Mesa_Arch.jpg");
+	height: 500px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxed h2 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	color: white;
+  	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .header {
+        background-attachment: scroll;
+    }
+}
+
+
