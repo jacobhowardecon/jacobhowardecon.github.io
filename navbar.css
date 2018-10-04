@@ -1,25 +1,46 @@
+body {
+    margin: 0;
+}
+ 
 .fixed_topnav {
 	position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-	padding: 0;
-	overflow: hidden;
-    text-align: center; 
-    /*max-width: 1080px;*/
-    margin: auto;
-    background: white;
-    display: inline-block;
+	padding: 10px 10px;
+	/*overflow: hidden;*/
+    background-color: white;
 }
 
-ul.topnav {
-    list-style-type: none;
-    margin-top:50px;
-    padding: 20px;
-    overflow: hidden;
-    text-align: center; 
-    max-width: 1080px;
-    margin: auto;
-}
+
+.topnav {
+	overflow: hidden;
+	background-color: white;
+	padding: 20px 10px;
+	margin: auto;
+	max-width: 1080px;
+	}
+
+.topnav a {
+	float: left;
+	color: rgb(0,206,209);
+    color: rgb(0,0,0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 20px;
+	}
+	
+.topnav a.logo {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 100;
+	font-size: 35px;
+}	
+
+.topnav a:hover {background-color: rgb(210,210,210);}
+.topnav a.logo:hover {background-color: transparent;}
+.topnav-right { float:right; padding-right: 50px;}
+
 
 .sexy_line { 
     margin: 25px auto 25px;
@@ -29,54 +50,16 @@ ul.topnav {
 	max-width: 1080px;
 }
 
-ul.topnav li{ 
-	float: left;
-	margin-top: 10px;
+.landing-wrapper {
+    height: 100%;
+    background: white;
 }
 
-
-ul.topnav li.logo {
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-weight: 100;
-	font-size: 35px;
-	margin-left: 15px;
-	margin-top: 15px;
-	float: left;
-}	
-
-
-ul.menu {
-	float: right; 
-	list-style: none;
-	margin-right: 10px;
-}
-
-ul.topnav li a {
-    color: rgb(0,206,209);
-    color: rgb(0,0,0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    display:inline-block;
-    font-size: 20px;
-}
-
-ul.topnav li a:hover {background-color: rgb(210,210,210);}
-
-@media screen and (max-device-width: 775px){ 
-    ul.topnav li.logo {float: none;} 
-    ul.menu{float: none;
-    display: inline-block;
-    vertical-align: top;
-    *display: inline;
-    *zoom: 1;}
-}
-
-@media screen and (max-width: 775px){ 
-    ul.topnav li.logo {float: none;}
-    ul.menu{float: none;
-    display: inline-block;
-    vertical-align: top;
-    *display: inline;
-    *zoom: 1;}   
+@media screen and (max-width: 759px) {
+  .topnav-right a {margin:0 auto; text-align: center; float: none;}
+  .topnav-left a.logo {margin:0 auto; text-align: center; float:none; white-space: nowrap;}
+  .topnav-right {text-align: center; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center; float:none; width: 25%; margin: 0 auto; padding-right:0px;}
+  .topnav-left {position: none; text-align:center; display: flex; flex-wrap: nowrap; width: 75%; margin: 0 auto;}
+  .fixed_topnav {position: relative;}
+  .topnav {overflow:hidden; display: block}
 }

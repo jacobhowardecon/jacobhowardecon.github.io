@@ -2,8 +2,12 @@
 	font-family: 'Fjord One', serif;
 	font-size: 16px;
 	}
-	
-article {
+
+body {
+    margin: 0;
+}
+
+.article {
 	background-color: White;
 	display: flex;
 	justify-content: space-around;
@@ -11,7 +15,11 @@ article {
 	max-width: 1080px;
 	margin: auto;
 	float: none;
+	padding-top: 200px; 
 	}
+
+@media screen and (max-width: 759px) {.article{padding-top: 5px;}}
+
 
 .group {	
 	display: flex;
@@ -31,11 +39,11 @@ article {
 	height: 100%;
 	max-width: 500px;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 	
 .column2of3 p {
-	padding: 10px
+	padding: 5px;
 }
 	
 	
@@ -46,6 +54,7 @@ article {
 	justify-content: space-around;
 	align-content: space-around;
 	flex-wrap: nowrap;
+	padding-top:0px;
 }
     
 td {
@@ -54,7 +63,8 @@ td {
 	border-collapse: collapse;
 }
 table {
-	margin-top: 0;}
+	margin-top: 0;
+	}
  	
 a {
 font-family:'Dosis', sans-serif;
