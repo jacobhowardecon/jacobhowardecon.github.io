@@ -43,7 +43,8 @@ article ul {
 	font-size: 5px;
 	margin: 15px 0px 40px 0px;
 	text-align: justify;
-    text-justify: inter-word;
+    text-justify: inter-character;
+    display:block;
 }    
 
 a {
@@ -91,9 +92,13 @@ br { font-size: 150%; }
 }
 
 @media only screen and (max-device-width: 759px) {
-    .header {
-        background-attachment: scroll;
-    }
+    /*this only adjusts based on device size*/
+    
 }
 
-
+@media screen and (max-width: 759px) {
+	/*this adjusts based on browser size*/
+	.header {background-attachment: scroll;}
+	ul {padding:10px}
+	p {display: none !important; margin:auto;}
+}
