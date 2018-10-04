@@ -55,7 +55,7 @@ body {
     background: white;
 }
 
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 779px) {
   .topnav-right a {margin:0 auto; text-align: center; float: none;}
   .topnav-left a.logo {margin:0 auto; text-align: center; float:none; white-space: nowrap;}
   .topnav-right {text-align: center; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center; float:none; width: 25%; margin: 0 auto; padding-right:0px;}

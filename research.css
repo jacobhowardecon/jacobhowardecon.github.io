@@ -91,12 +91,12 @@ br { font-size: 150%; }
   	white-space: nowrap;
 }
 
-@media only screen and (max-device-width: 759px) {
+@media only screen and (max-device-width: 779px) {
     /*this only adjusts based on device size*/
     
 }
 
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 779px) {
 	/*this adjusts based on browser size*/
 	.header {background-attachment: scroll;}
 	ul {padding:10px}
