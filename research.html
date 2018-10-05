@@ -43,23 +43,27 @@
 </div>
 
 <article>
-<ul>
-<li class = "paper">Endogenous Production Networks and the Labor Market Consequences of Globalization</li>
-<li class = "note"> Please email me for the most current draft</li>
-<li class = "abstract"><ul>
-	<li><p>This paper highlights the importance of endogenous production networks in exposing 
+<div class = "paper">
+<strong>Endogenous Production Networks and the Labor Market Consequences of Globalization</strong><br>
+<small> Please <a href="mailto:Jacob.b.howard@colorado.edu" target="_blank">email me</a> for the most current draft</small><br>
+<button class="accordion">Abstract</button>
+<div class="panel">
+	<p class = "abstract">This paper highlights the importance of endogenous production networks in exposing 
 	workers in non-import competing sectors to trade shocks in other sectors. Firms 
 	trade in intermediates to establish a production network, and workers are complements 
 	to these intermediates. When there is a trade shock in an import competing sector, workers
 	in any sector whose employer trades with the import competing sector face changes in 
-	their nominal wages.</p></li>
-</ul></li>
+	their nominal wages.</p>
+</div>
+</div>
 
-<li class = "paper"><a href="https://sites.google.com/a/colorado.edu/doyoungeconphd/research">
-Trade Liberalization, Firm Production Networks and the Regional Environment</a></li>
-<li class = "note">with Doyoung Park</li>
-<li class = "abstract"><ul>
-	<li><p>This paper provides a simple theoretical framework which demonstrates that the 
+<div class = "paper">
+<strong>Trade Liberalization, Firm Production Networks and the Regional Environment</strong><br>
+<a href="https://sites.google.com/a/colorado.edu/doyoungeconphd/research">
+<small>with Doyoung Park</small></a><br>
+<button class="accordion">Abstract</button>
+<div class="panel">
+	<p class = "abstract">This paper provides a simple theoretical framework which demonstrates that the 
 	reduction of international trade costs can be one of the channels which causes the 
 	coastal areas to experience greater total emissions, but lower emission intensities 
 	compared to interior regions when firms are interconnected through the networks. We 
@@ -78,10 +82,27 @@ Trade Liberalization, Firm Production Networks and the Regional Environment</a><
 	concentration of firms induces greater share of total emissions to be allocated to 
 	the coastal regions. However, the networks established in the coastal regions foster 
 	outsourcing activities between firms, which in turn reduce the regional emission 
-	intensities.</p></li>
-</ul></li>
-</ul>
-
+	intensities.</p>
+</div>
+</div>
 </article>
 
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
 </body>
+</html>

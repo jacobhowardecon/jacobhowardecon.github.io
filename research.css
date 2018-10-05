@@ -13,34 +13,38 @@ article {
 	margin: auto;
 	float: none;
 	padding: 20px;
-	text-align: justify;
 }
 	
 article ul {
 	list-style: none;
 }
 
-.paper a{
+
+.paper { 
+	width: 100%;
+	padding: 25px;}
+
+.paper strong {
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 }
 
-.paper {
-	font-family: 'Dosis', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	margin: none
-}
-
-.note {
+.paper small {
 	font-family: 'Dosis', sans-serif;
 	font-size: 15px;
 	font-weight: 200;
 }
 
+.paper small a{
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px;
+	font-weight: 200;
+}
+
+
 .abstract {
-	font-size: 5px;
+	font-size: 15px;
 	margin: 15px 0px 40px 0px;
 	text-align: justify;
     text-justify: inter-character;
@@ -66,7 +70,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-br { font-size: 150%; }
+
 
 .header {
 	background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),
@@ -78,7 +82,7 @@ br { font-size: 150%; }
     background-size: cover;
 }
 
-.boxed h2 {
+h2 {
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-weight: 100;
 	font-size: 40px;
@@ -91,6 +95,29 @@ br { font-size: 150%; }
   	white-space: nowrap;
 }
 
+
+.accordion {
+    /*background-color: #eee;*/
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Dosis', sans-serif;
+}
+
+button:hover {text-decoration: underline;}
+
+.panel {
+    padding: 0 18px;
+    display: block;
+    background-color: white;
+    overflow: hidden;
+}
+
 @media only screen and (max-device-width: 779px) {
     /*this only adjusts based on device size*/
     
@@ -99,6 +126,6 @@ br { font-size: 150%; }
 @media screen and (max-width: 779px) {
 	/*this adjusts based on browser size*/
 	.header {background-attachment: scroll;}
+	.panel {display:none;}
 	ul {padding:10px}
-	p {display: none !important; margin:auto;}
 }
