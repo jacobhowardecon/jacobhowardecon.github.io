@@ -7,7 +7,7 @@ body {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 	padding: 10px 10px;
-	/*overflow: hidden;*/
+	overflow: hidden;
     background-color: white;
 }
 
@@ -59,7 +59,7 @@ body {
   .topnav-right a {margin:0 auto; text-align: center; float: none;}
   .topnav-left a.logo {margin:0 auto; text-align: center; float:none; white-space: nowrap;}
   .topnav-right {text-align: center; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center; float:none; width: 25%; margin: 0 auto; padding-right:0px;}
-  .topnav-left {position: none; text-align:center; display: flex; flex-wrap: nowrap; width: 75%; margin: 0 auto;}
-  .fixed_topnav {position: relative;}
+  .topnav-left {position: none; text-align:center; display: flex; flex-wrap: nowrap; width: 95%; margin: 0 auto;}
+  .fixed_topnav {position: relative; overflow: hidden;max-width:300px; margin:auto;}
   .topnav {overflow:hidden; display: block}
 }

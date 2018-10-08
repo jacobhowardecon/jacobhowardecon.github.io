@@ -20,7 +20,9 @@ body {
 
 @media screen and (max-width: 779px) {
 	.article{padding-top: 5px; flex-direction: column;} 
-	.column2of3{max-width:300px}
+	.column2of3{max-width:300px;}
+	.column3of3{max-width:300px; margin: auto;}
+	/*.column1of3{border: 2px dashed red;}*/
 	}
 
 
