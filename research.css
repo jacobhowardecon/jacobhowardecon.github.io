@@ -1,6 +1,6 @@
-* {	
-	font-family: 'Fjord One', serif;
-	font-size: 16px;
+* {
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
 	}
 
 
@@ -14,13 +14,13 @@ article {
 	float: none;
 	padding: 20px;
 }
-	
+
 article ul {
 	list-style: none;
 }
 
 
-.paper { 
+.paper {
 	width: 100%;
 	padding: 25px;}
 
@@ -47,9 +47,9 @@ article ul {
 	font-size: 15px;
 	margin: 15px 0px 40px 0px;
 	text-align: justify;
-    text-justify: inter-character;
-    display:block;
-}    
+  text-justify: inter-character;
+  display:block;
+}
 
 a {
 	font-family:'Dosis', sans-serif;
@@ -83,7 +83,7 @@ a:hover {
 }
 
 h2 {
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-weight: 100;
 	font-size: 40px;
 	color: white;
@@ -97,10 +97,9 @@ h2 {
 
 
 .accordion {
-    /*background-color: #eee;*/
-    color: #444;
+    background: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
     border: none;
     text-align: left;
     outline: none;
@@ -120,7 +119,7 @@ button:hover {text-decoration: underline;}
 
 @media only screen and (max-device-width: 779px) {
     /*this only adjusts based on device size*/
-    
+
 }
 
 @media screen and (max-width: 779px) {

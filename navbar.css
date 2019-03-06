@@ -1,7 +1,7 @@
 body {
     margin: 0;
 }
- 
+
 .fixed_topnav {
 	position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -30,19 +30,19 @@ body {
     display:inline-block;
     font-size: 20px;
 	}
-	
+
 .topnav a.logo {
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-weight: 100;
 	font-size: 35px;
-}	
+}
 
 .topnav a:hover {background-color: rgb(210,210,210);}
 .topnav a.logo:hover {background-color: transparent;}
-.topnav-right { float:right; padding-right: 50px;}
+.topnav-right { float:right; padding-right: 50px; }
+.topnav-right  a {font-family: 'Titillium Web', sans-serif;}
 
-
-.sexy_line { 
+.sexy_line {
     margin: 25px auto 25px;
     height: 1px;
     background: black;
