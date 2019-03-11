@@ -1,5 +1,5 @@
 * {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 18px;
 	}
 
@@ -55,7 +55,7 @@ body {
 
 
 .column3of3 {
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	width: 100%
   max-width: 500px;
 	display: flex;
@@ -65,6 +65,18 @@ body {
 	padding-top:0px;
 }
 
+.cols {
+	text-align: center;
+	width: 33%;
+	/*word-break: break-all;*/
+}
+
+.cols > div { width: 100%;
+	padding: 10px;
+}
+
+
+
 td {
 	text-align: center;
 	padding:0px 10px 0px 10px;
@@ -72,10 +84,11 @@ td {
 }
 table {
 	margin-top: 0;
+
 	}
 
 a {
-font-family:'Dosis', sans-serif;
+font-family: 'Dosis', sans-serif;
 }
 a:link {
 	color: rgb(0,0,0);
