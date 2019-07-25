@@ -1,0 +1,42 @@
+* {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	}
+
+body {
+    margin: 0;
+}
+h5 {text-align: center;
+}
+.article {
+	flex-wrap: wrap;
+	background-color: white;
+	justify-content: space-around;
+	margin: auto;
+	float: none;
+	max-width: 1080px;
+	padding-top: 200px;
+	}
+
+@media screen and (max-width: 779px) {
+	.article{padding-top: 5px; flex-direction: column;}
+	}
+
+
+a {
+font-family: 'Dosis', sans-serif;
+text-decoration: underline;
+}
+a:link {
+	color: rgb(0,0,0);
+	text-decoration: underline;
+}
+a:visited {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(0,0,0);
+	text-decoration: underline;
+}
+br { font-size: 150%; }
