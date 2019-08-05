@@ -3,6 +3,10 @@
 	font-size: 18px;
 	}
 
+	body {
+		padding-top: 10%;
+	}
+
 article {
 	background-color: White;
 	display: flex;
