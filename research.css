@@ -1,18 +1,18 @@
 * {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 18px;
 	}
-
 
 article {
 	background-color: White;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	width: 100%;
 	max-width: 800px;
 	margin: auto;
 	float: none;
-	padding: 20px;
+	padding-top: 1000px;
 }
 
 article ul {
@@ -22,7 +22,8 @@ article ul {
 
 .paper {
 	width: 100%;
-	padding: 25px;}
+	padding: 25px;
+}
 
 .paper strong {
 	font-family: 'Dosis', sans-serif;
@@ -40,6 +41,12 @@ article ul {
 	font-family: 'Dosis', sans-serif;
 	font-size: 15px;
 	font-weight: 200;
+}
+
+.section {
+	width: 100%;
+	max-width: 779px;
+	margin: auto;
 }
 
 
@@ -71,30 +78,46 @@ a:hover {
 }
 
 
-
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),
-	url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/Mesa_Arch.jpg");
+	/*background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),*/
+	background: url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/Mesa_Arch.jpg");
 	height: 500px;
+	min-height: 100%;
 	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+.header2 {
+	/*background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),*/
+	background: url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/leadville.jpg");
+	height: 500px;
+	min-height: 100;
+	position: relative;
+	background-attachment: fixed;
+  background-position: center top
+  background-repeat: no-repeat;
+  background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 h2 {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 100;
 	font-size: 40px;
 	color: white;
-  	margin: 0;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	white-space: nowrap;
+	/*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;*/
 }
-
 
 .accordion {
     background: none;
@@ -125,6 +148,7 @@ button:hover {text-decoration: underline;}
 @media screen and (max-width: 779px) {
 	/*this adjusts based on browser size*/
 	.header {background-attachment: scroll;}
+	.header2 {background-attachment: scroll;}
 	.panel {display:none;}
 	ul {padding:10px}
 }

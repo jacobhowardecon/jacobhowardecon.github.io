@@ -3,9 +3,22 @@
 	font-size: 18px;
 	}
 
-body {
-    margin: 0;
-}
+	html, body {
+	  height: 100%;
+	}
+	body {
+	  display: flex;
+	  flex-direction: column;
+	}
+
+	.footer {
+	  flex-shrink: 0;
+		padding: 10px;
+		justify-content: center;
+		background-color: #f7f7f7;
+	}
+
+.content{flex: 1 0 auto;}
 
 .article {
 	background-color: White;
@@ -15,14 +28,12 @@ body {
 	max-width: 1080px;
 	margin: auto;
 	float: none;
-	padding-top: 200px;
 	}
 
 @media screen and (max-width: 779px) {
 	.article{padding-top: 5px; flex-direction: column;}
 	.column2of3{max-width:300px;}
 	.column3of3{max-width:300px; margin: auto; padding: 0 5px;}
-	/*.column1of3{border: 2px dashed red;}*/
 	}
 
 
@@ -30,14 +41,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	padding: 10px;
+	padding: 0px;
 	}
 
 .column1of3 {
 	width: 100%;
 	max-width: 250px;
 	margin: auto;
-	padding: 5px;
+	padding: 0px;
 	}
 
 .column2of3 {
@@ -51,31 +62,11 @@ body {
 .column2of3 p {
 	font-size: 17px;
 	line-height: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
-.column3of3 {
-	font-family: 'Dosis', sans-serif;
-	width: 100%
-  max-width: 500px;
-	display: flex;
-	justify-content: space-around;
-	align-content: space-around;
-	flex-wrap: nowrap;
-	padding-top:0px;
-}
-
-.cols {
-	text-align: center;
-	width: 33%;
-	/*word-break: break-all;*/
-}
-
-.cols > div { width: 100%;
-	padding: 10px;
-}
-
-/*test*/
 
 td {
 	text-align: center;
@@ -90,6 +81,8 @@ table {
 a {
 font-family: 'Dosis', sans-serif;
 }
+
+
 a:link {
 	color: rgb(0,0,0);
 	text-decoration: none;
@@ -102,4 +95,3 @@ a:hover {
 	color: rgb(0,0,0);
 	text-decoration: underline;
 }
-br { font-size: 150%; }
