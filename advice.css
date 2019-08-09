@@ -16,7 +16,7 @@ h2 {text-align: center;
 	float: none;
 	padding-top: 200px;
 	max-width: 779px;
-	widthL: 100%;
+	width: 100%;
 	}
 
 @media screen and (max-width: 779px) {

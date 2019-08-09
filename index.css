@@ -11,12 +11,6 @@
 	  flex-direction: column;
 	}
 
-	.footer {
-	  flex-shrink: 0;
-		padding: 10px;
-		justify-content: center;
-		background-color: #f7f7f7;
-	}
 
 .content{flex: 1 0 auto;}
 

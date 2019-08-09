@@ -7,21 +7,6 @@
 		padding-top: 10%;
 	}
 
-article {
-	background-color: White;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	width: 100%;
-	max-width: 800px;
-	margin: auto;
-	float: none;
-	padding-top: 1000px;
-}
-
-article ul {
-	list-style: none;
-}
 
 
 .paper {
