@@ -6,7 +6,7 @@
 body {
     margin: 0;
 }
-h5 {text-align: center;
+h2 {text-align: center;
 }
 .article {
 	flex-wrap: wrap;
@@ -14,8 +14,9 @@ h5 {text-align: center;
 	justify-content: space-around;
 	margin: auto;
 	float: none;
-	max-width: 1080px;
 	padding-top: 200px;
+	max-width: 779px;
+	widthL: 100%;
 	}
 
 @media screen and (max-width: 779px) {
