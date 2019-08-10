@@ -42,7 +42,11 @@ body {
 
 .topnav a:hover {background-color: rgb(210,210,210);}
 .topnav a.logo:hover {background-color: transparent;}
-.topnav-right { float:right; padding-right: 50px; }
+.topnav-right { float:right;
+	padding-right: 50px;
+	display: flex;
+	flex-wrap: nowrap;
+}
 .topnav-right  a {font-family: 'Titillium Web', sans-serif;}
 
 .sexy_line {
@@ -61,7 +65,7 @@ body {
 @media screen and (max-width: 779px) {
   .topnav-right a {margin:0 auto; text-align: center; float: none;}
   .topnav-left a.logo {margin:0 auto; text-align: center; float:none; white-space: nowrap;}
-  .topnav-right {text-align: center; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center; float:none; width: 25%; margin: 0 auto; padding-right:0px;}
+  .topnav-right {text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; float:none; margin: 0 auto; padding-right:0px;}
   .topnav-left {position: none; text-align:center; display: flex; flex-wrap: nowrap; width: 95%; margin: 0 auto;}
   .fixed_topnav {position: relative; overflow: hidden;max-width:300px; margin:auto;}
   .topnav {overflow:hidden; display: block}
