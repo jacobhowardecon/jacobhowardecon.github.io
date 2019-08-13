@@ -14,31 +14,55 @@
 	<link rel="icon" type="image/png"
 	href="https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/favicon-256.png">
 	<link href = "teaching.css" type = "text/css" rel = "stylesheet" />
-	<link href = "navbar.css" type = "text/css" rel = "stylesheet" />
+	<link href = "navbar_alt.css" type = "text/css" rel = "stylesheet" />
 	<link href = "footer.css" type = "text/css" rel = "stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dosis:200,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,400" rel="stylesheet">
-</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
 
-<body>
 
+	<body>
 	<div class="landing-wrapper">
 	<div class="fixed_topnav">
 	 <div class="topnav">
-	   <div class = "topnav-left">
-	    <a href="/index" class = "logo">Jacob Howard</a>
-	   </div>
-	  <div class = "topnav-right">
-	   <a href="/index">Home</a>
-	   <a href="/research">Research</a>
-	   <a href="/docs/CV.pdf" target="_blank">CV</a>
+		 <div class = "topnav-left">
+			<a href="/index" class = "logo">Jacob Howard</a>
+		 </div>
+		<div class = "topnav-right" id="myTopnav">
+		 <a href="/index">Home</a>
+		 <a href="/research">Research</a>
+		 <a href="/docs/CV.pdf" target="_blank">CV</a>
 		 <a href = "/teaching">Teaching</a>
-	  </div>
+		 <a href = "/advice">Resources</a>
+		 <a href="javascript:void(0);" class="icon" onclick="openNav()">
+			 <i class="fa fa-bars"></i></a>
+
+		</div>
 	 </div>
-	 <div class="sexy_line"></div>
+	<div style= "background-color: rgb(50,50,50); height:50px;">  </div>
 	</div>
 	</div>
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="/index">Home</a>
+		<a href="/research">Research</a>
+		<a href="/docs/CV.pdf" target="_blank">CV</a>
+		<a href = "/teaching">Teaching</a>
+		<a href = "/advice">Resources</a>
+	</div>
+
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
 
 
 <div class = "content">

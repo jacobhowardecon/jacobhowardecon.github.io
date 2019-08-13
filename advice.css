@@ -7,20 +7,40 @@ body {
     margin: 0;
 }
 h2 {text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	color: white;
 }
-.article {
+.content {
 	flex-wrap: wrap;
 	background-color: white;
 	justify-content: space-around;
 	margin: auto;
 	float: none;
-	padding-top: 200px;
 	max-width: 779px;
 	width: 100%;
 	}
 
+
+	.header {
+		/*background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),*/
+		background: url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/goat_haunt.jpg");
+		height: 500px;
+		min-height: 100%;
+		background-attachment: fixed;
+	  background-position: center top;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 20%;
+	}
+
 @media screen and (max-width: 779px) {
-	.article{padding-top: 5px; flex-direction: column;}
+	.article{/*padding-top: 5px; */flex-direction: column;}
+	.header {background-attachment: scroll;}
 	}
 
 

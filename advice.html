@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Advice </title>
+	<title> Resources </title>
 	<meta name = "keywords"
 		content = "economics, international trade, international, trade,
 			labor, supply chains, trade war, jacobhowardecon,
@@ -16,11 +16,13 @@
 	href="https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/favicon-256.png">
 
 	<link href = "advice.css" type = "text/css" rel = "stylesheet" />
-	<link href = "navbar.css" type = "text/css" rel = "stylesheet" />
+	<link href = "navbar_alt.css" type = "text/css" rel = "stylesheet" />
 	<link href = "footer.css" type = "text/css" rel = "stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dosis:200,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 
@@ -31,18 +33,53 @@
    <div class = "topnav-left">
     <a href="/index" class = "logo">Jacob Howard</a>
    </div>
-  <div class = "topnav-right">
+  <div class = "topnav-right" id="myTopnav">
    <a href="/index">Home</a>
-   <a href="/research">Research</a></li>
-   <a href="/docs/CV.pdf" target="_blank">CV</a></li>
+   <a href="/research">Research</a>
+   <a href="/docs/CV.pdf" target="_blank">CV</a>
+	 <a href = "/teaching">Teaching</a>
+	 <a href = "/advice">Resources</a>
+	 <a href="javascript:void(0);" class="icon" onclick="openNav()">
+		 <i class="fa fa-bars"></i></a>
+
   </div>
  </div>
- <div class="sexy_line"></div>
+<div style= "background-color: rgb(50,50,50); height:50px;">  </div>
 </div>
 </div>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="/index">Home</a>
+	<a href="/research">Research</a>
+	<a href="/docs/CV.pdf" target="_blank">CV</a>
+	<a href = "/teaching">Teaching</a>
+	<a href = "/advice">Resources</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+
 <div class ="article">
-	<h2>General Advice for Fellow Grad Students: Writing, Coding, Teaching and Other Things</h2>
+
+	<div class="header">
+	<div class="boxed">
+	<h2>Resources</h2>
+	</div>
+	</div>
+
+	<div class = "content">
+		<h5> General Advice for Fellow Grad Students: Writing, Coding, Teaching and Other Things</h5>
 	<ul>
 
 	<li> Check out <a href="https://tradediversion.net">Jonathan Dingle's blog</a> and
@@ -82,7 +119,7 @@
 </ul>
 
 
-<h2>Economics Podcasts I Like</h2>
+<h5>Economics Podcasts I Like</h5>
 
 
 <ul>
@@ -94,6 +131,7 @@
 	<li>Slate Money</li>
 </ul>
 
+</div>
 </div>
 
 <div class= "footer">

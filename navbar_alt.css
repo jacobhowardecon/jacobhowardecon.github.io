@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+}
+
+
+
+.fixed_topnav {
+	  position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+	  /*padding: 10px 10px;*/
+	  /*overflow: hidden;*/
+    background-color: white;
+    /* z-index: 1;*/
+}
+
+
+.topnav {
+	overflow: hidden;
+	background-color: white;
+	padding: 20px; /*10px;*/
+	margin: auto;
+	/*max-width: 1080px;*/
+	}
+
+.topnav a {
+	float: left;
+	color: rgb(0,206,209);
+    color: rgb(0,0,0);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 20px;
+	}
+
+.topnav a.logo {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 100;
+	font-size: 35px;
+}
+
+.topnav a:hover {background-color: rgb(210,210,210);}
+.topnav a.logo:hover {background-color: transparent;}
+.topnav-right {float:right;
+	/*padding-right: 50px;*/
+	display: flex;
+	flex-wrap: nowrap;
+}
+.topnav-right  a {font-family: 'Titillium Web', sans-serif;}
+
+.sexy_line {
+    margin: 25px auto 25px;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+	  max-width: 1080px;
+}
+
+.landing-wrapper {
+    height: 30%;
+    background: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 779px) {
+  .topnav-right a {margin:0 auto; text-align: center; float: none;}
+.topnav-left a.logo {margin:0 auto; text-align: center;}
+	/*.topnav-right {float: none; flex-wrap: wrap; align-items: center; max-width:400px; width: 100%; margin: 0 auto;}
+  .topnav-left {position: none; text-align:center; display: flex; flex-wrap: nowrap; width: 95%; margin: 0 auto;}*/
+  .fixed_topnav {position: relative; overflow: hidden; margin:auto;}
+  /*.topnav-right {display: none}*/
+	.topnav-right a:not(:last-child) {display: none;}
+  .topnav-right a.icon {
+    float: right;
+    display: block;
+	}
+}
+
+@media screen and (max-width: 779px) {
+	.topnav-right.responsive {position: relative;}
+  .topnav-right .responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav-right.responsive a {
+    float: left;
+    display: block;
+    text-align: right;
+  }
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
