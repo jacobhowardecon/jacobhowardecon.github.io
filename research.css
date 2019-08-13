@@ -3,9 +3,6 @@
 	font-size: 18px;
 	}
 
-
-
-
 .paper {
 	width: 100%;
 	padding: 25px;
@@ -76,6 +73,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: 10%;
 }
 
 .header2 {
@@ -83,7 +81,6 @@ a:hover {
 	background: url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/leadville.jpg");
 	height: 500px;
 	min-height: 100;
-	position: relative;
 	background-attachment: fixed;
   background-position: center top
   background-repeat: no-repeat;

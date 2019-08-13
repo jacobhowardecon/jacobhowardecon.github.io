@@ -116,11 +116,34 @@
 	</div>
 	<div class = "cols">
 		<div> Contact </div>
-		<div class = "br"><a href="mailto:Jacob.b.howard@colorado.edu" target="_blank">
-			<img class = "social" src="https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/email-filled-closed-envelope.png"></a> </div>
+		<button onclick="copyStringToClipboard('jacob.b.howard@colorado.edu')">
+			<img class = "social" src="https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/email-filled-closed-envelope.png">
+		</button>
+		</div>
 	</div>
 	</div>
-	</div>
+
+
+	<script>
+	function copyStringToClipboard (str) {
+		 // Create new element
+		 var el = document.createElement('textarea');
+		 // Set value (string to be copied)
+		 el.value = str;
+		 // Set non-editable to avoid focus and move outside of view
+		 el.setAttribute('readonly', '');
+		 el.style = {position: 'absolute', left: '-9999px'};
+		 document.body.appendChild(el);
+		 // Select text inside element
+		 el.select();
+		 // Copy text to clipboard
+		 document.execCommand('copy');
+		 // Remove temporary element
+		 document.body.removeChild(el);
+		 alert("Jacob's Email is Copied to your Clipboard")
+	}
+	</script>
+
 
 </body>
 </html

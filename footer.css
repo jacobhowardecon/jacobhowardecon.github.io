@@ -43,6 +43,15 @@ font-size: 18px;
 	text-decoration: none;
 }
 
+button {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
 
 .social {
 	width: 100%;
