@@ -9,7 +9,7 @@ html, body {
 body {
 	display: flex;
 	flex-direction: column;
-	
+
 	}
 
 .content{flex: 1 0 auto;
@@ -71,6 +71,17 @@ body {
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	  white-space: nowrap;*/
+	}
+	small {
+		font-family: 'Dosis', sans-serif;
+		font-size: 15px;
+		font-weight: 200;
+	}
+
+	small a{
+		font-family: 'Dosis', sans-serif;
+		font-size: 15px;
+		font-weight: 200;
 	}
 
 
