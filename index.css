@@ -22,12 +22,14 @@
 	max-width: 1080px;
 	margin: auto;
 	float: none;
+	padding-top: 25px;
 	}
 
-@media screen and (max-width: 779px) {
+
+@media screen and (max-width: 1080px) {
 	.article{padding-top: 5px; flex-direction: column;}
-	.column2of3{max-width:300px;}
-	.column3of3{max-width:300px; margin: auto; padding: 0 5px;}
+	.column2of3{max-width:250px;}
+	.column3of3{max-width:250px; margin: auto; padding: 0 5px;}
 	}
 
 
@@ -40,10 +42,17 @@
 
 .column1of3 {
 	width: 100%;
-	max-width: 250px;
+	max-width: 400px;
 	margin: auto;
-	padding: 0px;
+	padding: 10px;
 	}
+
+.column1of3	img {
+	    max-width: 100%;
+	    max-height: 100%;
+	}
+
+
 
 .column2of3 {
 	width: 100%;
