@@ -11,7 +11,8 @@ body {
 	  padding: 10px 10px;
 	  overflow: hidden;
     background-color: white;
-    z-index: 1;
+    /*z-index: 1;*/
+		position: relative;
 }
 
 
@@ -21,6 +22,7 @@ body {
 	padding: 20px 10px;
 	margin: auto;
 	max-width: 1080px;
+	position: relative;
 	}
 
 .topnav a {
@@ -42,7 +44,7 @@ body {
 
 .topnav a:hover {background-color: rgb(210,210,210);}
 .topnav a.logo:hover {background-color: transparent;}
-.topnav-right { float:right;
+.topnav-right {float:right;
 	padding-right: 50px;
 	display: flex;
 	flex-wrap: nowrap;
@@ -62,11 +64,12 @@ body {
     background: white;
 }
 
-@media screen and (max-width: 1080px) {
+
+@media screen and (max-width: 900px) {
   .topnav-right a {margin:0 auto; text-align: center; float: none;}
   .topnav-left a.logo {margin:0 auto; text-align: center; float:none; white-space: nowrap;}
-  .topnav-right {text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; float:none; margin: 0 auto; padding-right:0px;}
+  .topnav-right {text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; float:none; margin: 0 auto; padding-right: 0px;}
   .topnav-left {position: none; text-align:center; display: flex; flex-wrap: nowrap; width: 95%; margin: 0 auto;}
-  .fixed_topnav {position: relative; overflow: hidden;max-width:300px; margin:auto;}
-  .topnav {overflow:hidden; display: block}
+  .fixed_topnav {position: relative; overflow: hidden; max-width:300px; margin:auto;}
+  .topnav {overflow:hidden; display: block;}
 }
