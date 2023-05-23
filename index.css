@@ -19,7 +19,7 @@
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	max-width: 1080px;
+	max-width: 1680px; 
 	margin: auto;
 	float: none;
 	padding: 5px;
@@ -36,7 +36,7 @@
 
 .column1of3 {
 	width: 100%;
-	max-width:350px;
+	max-width:500px;
 	margin: auto;
 	padding: 2.5px;
 	}
@@ -45,8 +45,6 @@
 	    max-width: 100%;
 	    max-height: 100%;
 	}
-
-
 
 .column2of3 {
 	width: 100%;
