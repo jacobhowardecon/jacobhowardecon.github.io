@@ -91,17 +91,29 @@ function closeNav() {
 		<h5> Trade Data Resources</h5>
 	<ul>
 
-	<li> <a href="https://comtradeplus.un.org/">UN Comtrade</a> Monthly and annual bilateral trade data at the HS6 level. Data is reported by both the importer and exporter and covers most countries in the world.</li>
-	<li> <a href="http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37">BACI Database</a> Annual bilateral trade data at the HS6 level. Data is cleaned so that reported imports equal reported exports (balanced trade). </li>
-	<li> <a href="https://usatrade.census.gov/"> USA Trade Online </a> Monthly U.S. import and export data. Data is available at the HTS 12 Digit level and can be compiled by national averages, port of entry, state of origin or destination. </li>
-	<li> <a href="https://microdata.worldbank.org/index.php/catalog/2545/study-description">Exporter Dynamics Database</a> To my knowledge this is the only publicly available dataset with micro-data on the firms that comprise aggregated trade data. </li>
-	<li> <a href="https://www.usitc.gov/data/gravity/index.htm">USITC Trade Data</a> Bilateral international trade data. Of particular note is the ITPD-E database which contains information on domestic trade for many countries and commodities. In practice, I have found there to be a lot of missing values in the current version of ITPD-E but the value of including domestic trade makes this a resource worth pointing out.</li>
-	
+	<li> <a href="https://comtradeplus.un.org/" target="_blank">UN Comtrade</a> Monthly and annual bilateral trade data at the HS6 level. Data is reported by both the importer and exporter and covers most countries in the world.</li>
+	<li> <a href="http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37" target="_blank">BACI Database</a> Annual bilateral trade data at the HS6 level. Data is cleaned so that reported imports equal reported exports (balanced trade). </li>
+	<li> <a href="https://usatrade.census.gov/" target="_blank"> USA Trade Online </a> Monthly U.S. import and export data. Data is available at the HTS 12 Digit level and can be compiled by national averages, port of entry, state of origin or destination. </li>
+	<li> <a href="https://microdata.worldbank.org/index.php/catalog/2545/study-description" target="_blank">Exporter Dynamics Database</a> To my knowledge this is the only publicly available dataset with micro-data on the firms that comprise aggregated trade data. </li>
+	<li> <a href="https://www.usitc.gov/data/gravity/index.htm" target="_blank">USITC Trade Data</a> Bilateral international trade data. Of particular note is the ITPD-E database which contains information on domestic trade for many countries and commodities. In practice, I have found there to be a lot of missing values in the current version of ITPD-E but the value of including domestic trade makes this a resource worth pointing out.</li>
 	</ul>
 
-
-
-
+	<div class = "content">
+		<h5> Basics of Working with Trade Data</h5>
+	<ul> 
+		<li>Quantities data can be inconsistently measured across countries. Differences in reporting standards, corruption, and other country differences can lead to measurment error in quantities data.</li>
+		<li>For this reason trade data is typicallly preffered when working with trade data from multiple countries. If you are working with only the U.S. trade data this is probably less of a concern. </li>
+		<li>Goods are classified via the Harmonized System (HS). This is a system of standardized commodities codes that makes it easier to collect tariff revenues.</li>
+		<li>For international trade data the HS codes are available in 2-, 4-, and 6-digit levels of details (with 6 being more detailed than 2). U.S. trade data is publicly available at a 10-digit level of data.</li> 
+		<ul>
+			<li>For more information on HS codes see <a href="https://unstats.un.org/wiki/pages/viewpage.action?pageId=87426301" target="_blank">here</a></li>
+		</ul>
+		<li>Every five years there is an update to these codes. New codes are created to capture trade in new goods and codes are merged as products become less relevant. 
+			The latest revision to the HS system occured in 2022.</li>
+		<ul>
+			<li>Crosswalks between differenct HS revisions can be found <a href="https://unstats.un.org/unsd/classifications/Econ" target="_blank">here</a></li>
+		</ul>
+	</ul>
 </div>
 </div>
 
