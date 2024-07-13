@@ -96,7 +96,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<a href="https://aspenunderwood.github.io/"> <small>with Aspen Underwood</small></a><br>
 	<button class="accordion">Abstract</button>
 	<div class="panel">
-		<p class = "abstract">TGrowing geopolitical tensions between the U.S. and China have compounded concerns about
+		<p class = "abstract">Growing geopolitical tensions between the U.S. and China have compounded concerns about
 			supply chain resiliency, emphasizing the importance of widening supply-chain relationships with
 			other partner nations. Using firm-level import data from the U.S. Census, this study quantifies the
 			sunk costs firms incur when de-risking critical supply chains by transitioning to an alternative
@@ -288,10 +288,10 @@ for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
+        if (panel.style.display === "none") {
             panel.style.display = "block";
+        } else {
+            panel.style.display = "none";
         }
     });
 }
