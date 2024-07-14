@@ -60,6 +60,38 @@ a:hover {
 	text-decoration: underline;
 }
 
+h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	color: white;
+	/*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;*/
+}
+
+.accordion {
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Dosis', sans-serif;
+}
+
+button:hover {text-decoration: underline;}
+
+.panel {
+    padding: 0 18px;
+    display: block;
+    background-color: white;
+    overflow: hidden;
+}
+
 
 .header {
 	/*background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),*/
@@ -100,44 +132,11 @@ a:hover {
 }
 
 
-h2 {
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 100;
-	font-size: 40px;
-	color: white;
-	/*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;*/
-}
-
-.accordion {
-    background: none;
-    cursor: pointer;
-    padding: 5px;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-    font-family: 'Dosis', sans-serif;
-}
-
-button:hover {text-decoration: underline;}
-
-.panel {
-    padding: 0 18px;
-    display: block;
-    background-color: white;
-    overflow: hidden;
-}
-
 @media only screen and (max-device-width: 779px) {
     /*this only adjusts based on device size*/
-	.header background {
-		background-attachment: scroll;
-		background-size:100%;
-		width:100%;
+	.header background {background-attachment: scroll;
+		background-size: contain;
+		background-position:50% 50%;
 	}
 	.header2 {background-attachment: scroll;
 		background-size: contain;
@@ -149,10 +148,9 @@ button:hover {text-decoration: underline;}
 
 @media screen and (max-width: 779px) { /* 779 */
 	/*this adjusts based on browser size*/
-	.header background {
-		background-attachment: scroll;
-		background-size:100%;
-		width:100%;
+	.header background {background-attachment: scroll;
+		background-size: contain;
+		background-position:50% 50%;
 	}
 	.header2 {
 		background-attachment: scroll;
