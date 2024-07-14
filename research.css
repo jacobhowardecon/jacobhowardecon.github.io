@@ -142,5 +142,6 @@ button:hover {text-decoration: underline;}
 	.header {background-attachment: scroll;}
 	.header2 {background-attachment: scroll;}
 	.panel {display:none;}
-	ul {padding:10px}
+	ul {padding:10px;}
+	.section {max-width:95vh;}
 }
