@@ -144,7 +144,7 @@ button:hover {text-decoration: underline;}
 	.panel {display:none;}
 	ul {padding:10px}
 	.paper {
-		width: 100%;
+		width: 100vh;
 	}
 	
 }
