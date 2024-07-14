@@ -134,6 +134,11 @@ button:hover {text-decoration: underline;}
 
 @media only screen and (max-device-width: 779px) {
     /*this only adjusts based on device size*/
+	.header {background-attachment: scroll;}
+	.header2 {background-attachment: scroll;}
+	.panel {display:none;}
+	ul {padding:10px;}
+	.section {max-width:95vh;}
 
 }
 
