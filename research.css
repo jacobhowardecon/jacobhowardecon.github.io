@@ -132,7 +132,7 @@ button:hover {text-decoration: underline;}
     overflow: hidden;
 }
 
-@media only screen and (max-device-width: 779px) {
+@media only screen and (max-device-width: 768px) {
     /*this only adjusts based on device size*/
 	.header background {
 		z-index: -1;
@@ -152,7 +152,7 @@ button:hover {text-decoration: underline;}
 
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 768px) { /* 779 */
 	/*this adjusts based on browser size*/
 	.header background {
 		z-index: -1;
@@ -162,7 +162,8 @@ button:hover {text-decoration: underline;}
 		background-size: cover;
 		background-position: center;
 	}
-	.header2 {background-attachment: scroll;
+	.header2 {
+		background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;}
 	.panel {display:none;}
