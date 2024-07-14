@@ -136,11 +136,11 @@ button:hover {text-decoration: underline;}
     /*this only adjusts based on device size*/
 	.header background {
 		background-attachment: scroll;
-		background-size: cover;
+		background-size: contain;
 		background-position:50% 50%;
 	}
 	.header2 {background-attachment: scroll;
-		background-size: cover;
+		background-size: contain;
 		background-position:50% 50%;}
 	.panel {display:none;}
 	ul {padding:10px;}
@@ -157,7 +157,7 @@ button:hover {text-decoration: underline;}
 	}
 	.header2 {
 		background-attachment: scroll;
-		background-size: cover;
+		background-size: contain;
 		background-position:50% 50%;}
 	.panel {display:none;}
 	ul {padding:10px;}
