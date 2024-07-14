@@ -137,6 +137,8 @@ button:hover {text-decoration: underline;}
 	.header {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
+		width:100%;
+		height:auto;
 	}
 	
 	.header2 {background-attachment: scroll;
@@ -155,6 +157,8 @@ button:hover {text-decoration: underline;}
 	.header {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
+		width:100%;
+		height:auto;
 	}
 	.header2 {
 		background-attachment: scroll;
