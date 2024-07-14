@@ -132,14 +132,14 @@ button:hover {text-decoration: underline;}
 }
 
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 250px) {
     /*this only adjusts based on device size*/
 	.header {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
 		width:100%;
 		height:auto;
-		z-index: 1;
+		margin-top:70px;
 	}
 	.header2 {background-attachment: scroll;
 		background-size: cover;
@@ -152,14 +152,14 @@ button:hover {text-decoration: underline;}
 	.section {max-width:95vh;}
 }
 
-@media screen and (max-width: 1024px) { /* 779 */
+@media screen and (max-width: 250px) { /* 779 */
 	/*this adjusts based on browser size*/
 	.header {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
 		width:100%;
 		height:auto;
-		z-index: 1;
+		margin-top:70px;
 	}
 	.header2 {
 		background-attachment: scroll;
