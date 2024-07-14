@@ -93,7 +93,6 @@ button:hover {text-decoration: underline;}
 	display: none;
 }
 
-
 .header {
 	/*background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),*/
 	background: url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/Mesa_Arch.jpg");
@@ -111,7 +110,6 @@ button:hover {text-decoration: underline;}
 	justify-content: center;
 	align-items: center;
 	padding-top: 20%;
-	margin-top:70px;
 }
 
 .header2 {
@@ -131,18 +129,17 @@ button:hover {text-decoration: underline;}
 	justify-content: center;
 	align-items: center;
 	padding-top: 10%;
-	margin-top:70px;
 }
 
 
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-device-width: 779px) {
     /*this only adjusts based on device size*/
 	.header {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
 		width:100%;
 		height:auto;
-		margin-top:70px;
+		margin-top:30%;
 	}
 	.header2 {background-attachment: scroll;
 		background-size: cover;
@@ -155,14 +152,20 @@ button:hover {text-decoration: underline;}
 	.section {max-width:95vh;}
 }
 
-@media screen and (max-width: 700px) { /* 779 */
+
+
+
+
+
+
+@media screen and (max-width: 779px) { /* 779 */
 	/*this adjusts based on browser size*/
 	.header {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
 		width:100%;
 		height:auto;
-		margin-top:70px;
+		margin-top:30%;
 	}
 	.header2 {
 		background-attachment: scroll;
