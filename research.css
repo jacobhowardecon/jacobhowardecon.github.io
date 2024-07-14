@@ -134,21 +134,25 @@ button:hover {text-decoration: underline;}
 
 @media only screen and (max-device-width: 1024px) {
     /*this only adjusts based on device size*/
-	.header background {background-attachment: scroll;
+	.header {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
 	}
+	
 	.header2 {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;}
-	.panel {display:none;}
+	
+		.panel {display:none;}
+
 	ul {padding:10px;}
+	
 	.section {max-width:95vh;}
 }
 
 @media screen and (max-width: 1024px) { /* 779 */
 	/*this adjusts based on browser size*/
-	.header background {background-attachment: scroll;
+	.header {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
 	}
