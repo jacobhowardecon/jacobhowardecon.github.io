@@ -139,13 +139,13 @@ button:hover {text-decoration: underline;}
 		background-position:50% 50%;
 		width:100%;
 		height:auto;
+		z-index: 1;
 	}
-	
 	.header2 {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;}
 	
-		.panel {display:none;}
+	.panel {display:none;}
 
 	ul {padding:10px;}
 	
@@ -159,6 +159,7 @@ button:hover {text-decoration: underline;}
 		background-position:50% 50%;
 		width:100%;
 		height:auto;
+		z-index: 1;
 	}
 	.header2 {
 		background-attachment: scroll;
