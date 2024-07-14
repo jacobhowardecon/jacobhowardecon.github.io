@@ -143,4 +143,8 @@ button:hover {text-decoration: underline;}
 	.header2 {background-attachment: scroll;}
 	.panel {display:none;}
 	ul {padding:10px}
+	.paper {
+		width: 100%;
+	}
+	
 }
