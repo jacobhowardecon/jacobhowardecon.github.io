@@ -145,14 +145,13 @@ button:hover {text-decoration: underline;}
 	.panel {display:none;}
 	ul {padding:10px;}
 	.section {max-width:95vh;}
-
 }
 
 @media screen and (max-width: 779px) { /* 779 */
 	/*this adjusts based on browser size*/
 	.header background {
 		background-attachment: scroll;
-		background-size: cover;
+		background-size: contain;
 		background-position:50% 50%;
 	}
 	.header2 {
