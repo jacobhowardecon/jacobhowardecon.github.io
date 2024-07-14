@@ -63,7 +63,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 768px) {
   .topnav-right a {margin:0 auto; text-align: center; float: none;}
 .topnav-left a.logo {margin:0 auto; text-align: center;}
 	/*.topnav-right {float: none; flex-wrap: wrap; align-items: center; max-width:400px; width: 100%; margin: 0 auto;}
@@ -77,7 +77,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 768px) {
 	.topnav-right.responsive {position: relative;}
   .topnav-right .responsive a.icon {
     position: absolute;
