@@ -135,11 +135,11 @@ button:hover {text-decoration: underline;}
 @media only screen and (max-device-width: 779px) {
     /*this only adjusts based on device size*/
 	.header background {background-attachment: scroll;
-		background-size: contain;
+		background-size: cover;
 		background-position:50% 50%;
 	}
 	.header2 {background-attachment: scroll;
-		background-size: contain;
+		background-size: cover;
 		background-position:50% 50%;}
 	.panel {display:none;}
 	ul {padding:10px;}
@@ -149,12 +149,12 @@ button:hover {text-decoration: underline;}
 @media screen and (max-width: 779px) { /* 779 */
 	/*this adjusts based on browser size*/
 	.header background {background-attachment: scroll;
-		background-size: contain;
+		background-size: cover;
 		background-position:50% 50%;
 	}
 	.header2 {
 		background-attachment: scroll;
-		background-size: contain;
+		background-size: cover;
 		background-position:50% 50%;}
 	.panel {display:none;}
 	ul {padding:10px;}
