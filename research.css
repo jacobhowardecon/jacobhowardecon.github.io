@@ -132,14 +132,13 @@ button:hover {text-decoration: underline;}
     overflow: hidden;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 779px) {
     /*this only adjusts based on device size*/
 	.header background {
 		background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;
 	}
-
 	.header2 {background-attachment: scroll;
 		background-size: cover;
 		background-position:50% 50%;}
@@ -149,7 +148,7 @@ button:hover {text-decoration: underline;}
 
 }
 
-@media screen and (max-width: 768px) { /* 779 */
+@media screen and (max-width: 779px) { /* 779 */
 	/*this adjusts based on browser size*/
 	.header background {
 		background-attachment: scroll;
