@@ -71,6 +71,8 @@ h2 {
   white-space: nowrap;*/
 }
 
+ul {list-style-type: "-"}
+
 .accordion {
     background: none;
     cursor: pointer;
