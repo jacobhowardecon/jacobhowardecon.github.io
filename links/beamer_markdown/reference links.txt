@@ -1,0 +1,3 @@
+https://github.com/alexeygumirov/pandoc-beamer-how-to?tab=readme-ov-file
+
+https://tex.stackexchange.com/questions/21986/export-beamer-slides-to-powerpoint-openoffice-impress-keynote-editable-format
