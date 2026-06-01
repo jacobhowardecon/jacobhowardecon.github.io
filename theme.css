@@ -1,0 +1,214 @@
+/* =============================================
+   CSS Custom Properties + Dark Mode + Mobile
+   ============================================= */
+
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f7f7;
+  --bg-nav: #ffffff;
+  --bg-nav-bar: rgb(50, 50, 50);
+  --bg-hover: rgb(210, 210, 210);
+  --bg-sidenav: #111111;
+  --text-primary: #000000;
+  --text-muted: rgb(75, 75, 75);
+  --text-sidenav: #818181;
+  --text-sidenav-hover: #f1f1f1;
+  --border-color: #dddddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #242424;
+    --bg-nav: #1e1e1e;
+    --bg-nav-bar: #111111;
+    --bg-hover: #3a3a3a;
+    --bg-sidenav: #0a0a0a;
+    --text-primary: #e0e0e0;
+    --text-muted: #aaaaaa;
+    --text-sidenav: #aaaaaa;
+    --text-sidenav-hover: #f1f1f1;
+    --border-color: #444444;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+  }
+
+  /* Navigation */
+  .fixed_topnav,
+  .topnav {
+    background-color: var(--bg-nav) !important;
+  }
+
+  .topnav a {
+    color: var(--text-primary) !important;
+  }
+
+  .topnav a:hover {
+    background-color: var(--bg-hover) !important;
+  }
+
+  .sidenav {
+    background-color: var(--bg-sidenav) !important;
+  }
+
+  .sidenav a {
+    color: var(--text-sidenav) !important;
+  }
+
+  .sidenav a:hover {
+    color: var(--text-sidenav-hover) !important;
+  }
+
+  /* Content areas */
+  .article {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary);
+  }
+
+  .content {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary);
+  }
+
+  .panel {
+    background-color: var(--bg-primary) !important;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary);
+  }
+
+  .cols > div {
+    color: var(--text-primary);
+  }
+
+  .cols > .br {
+    color: var(--text-muted) !important;
+  }
+
+  /* Links */
+  a:link,
+  a:visited {
+    color: var(--text-primary) !important;
+  }
+
+  /* Accordion buttons */
+  .accordion {
+    color: var(--text-primary) !important;
+  }
+
+  /* Dark bar under nav on homepage */
+  .landing-wrapper div[style*="background-color: rgb(50,50,50)"] {
+    background-color: var(--bg-nav-bar) !important;
+  }
+
+  /* Social icons: invert light logos so they're visible on dark background */
+  img.social[src*="mitre"],
+  img.social[src*="linkedin"],
+  img.social[src*="github"],
+  img.social[src*="email"] {
+    filter: invert(1) brightness(0.85);
+  }
+}
+
+/* =============================================
+   Mobile Spacing & Readability Improvements
+   ============================================= */
+
+@media screen and (max-width: 768px) {
+  /* Better base font sizing on small screens */
+  * {
+    font-size: 16px;
+  }
+
+  /* Give content areas room to breathe */
+  .article {
+    padding: 16px !important;
+    padding-top: 20px !important;
+  }
+
+  .content {
+    padding: 16px !important;
+  }
+
+  /* Research/advice sections */
+  .section {
+    max-width: 100% !important;
+    padding: 0 8px;
+  }
+
+  .paper {
+    padding: 16px 8px !important;
+  }
+
+  /* Stack footer columns on small screens */
+  .column3of3 {
+    flex-wrap: wrap !important;
+    gap: 16px;
+  }
+
+  .cols {
+    width: 100% !important;
+    min-width: 80px;
+  }
+
+  /* Abstract text readable on mobile */
+  .abstract {
+    font-size: 14px !important;
+    line-height: 1.6;
+  }
+
+  /* Bio text */
+  .column2of3 p {
+    font-size: 16px !important;
+    text-align: left;
+    padding: 8px 0 !important;
+  }
+
+  /* Headings */
+  h2 {
+    font-size: 28px !important;
+  }
+
+  h5 {
+    font-size: 17px;
+  }
+
+  /* Header banners: reduce height so text isn't lost */
+  .header,
+  .header2 {
+    height: 20vh !important;
+    min-height: 100px;
+    padding-top: 5% !important;
+  }
+
+  /* Nav logo smaller on mobile */
+  .topnav a.logo {
+    font-size: 26px !important;
+  }
+
+  /* Wider tap targets for list items */
+  ul li {
+    padding: 4px 0;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    font-size: 15px;
+  }
+
+  .topnav {
+    padding: 12px !important;
+  }
+
+  .paper strong {
+    font-size: 17px !important;
+  }
+}
