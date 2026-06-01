@@ -71,7 +71,14 @@ h2 {
   white-space: nowrap;*/
 }
 
-ul {list-style-type: "-"}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
 
 .accordion {
     background: none;
