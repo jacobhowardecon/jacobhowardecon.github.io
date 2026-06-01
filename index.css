@@ -74,6 +74,13 @@ table {
 
 	}
 
+.last-updated {
+	font-size: 13px !important;
+	color: rgb(130, 130, 130);
+	padding-top: 4px !important;
+	padding-bottom: 0 !important;
+}
+
 a {
 font-family: 'Dosis', sans-serif;
 }

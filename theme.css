@@ -126,6 +126,12 @@
     font-size: 16px;
   }
 
+  /* The dark decorative spacer bar serves no purpose when nav is not fixed */
+  .fixed_topnav > div[style*="background-color: rgb(50,50,50)"],
+  .fixed_topnav > div[style*="background-color:rgb(50,50,50)"] {
+    display: none !important;
+  }
+
   /* Give content areas room to breathe */
   .article {
     padding: 16px !important;
