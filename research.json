@@ -1,0 +1,99 @@
+{
+  "works_in_progress": [
+    {
+      "title": "National Security and Knowledge Diffusion: Evidence from the Invention Secrecy Act",
+      "coauthors": [
+        { "name": "Noah Martens" }
+      ]
+    },
+    {
+      "title": "Business is in the Air: Air Travel and the Formation of Firm Relationships in the United States",
+      "coauthors": [
+        { "name": "Alex Luttman", "url": "https://sites.google.com/a/uci.edu/aluttmann/" }
+      ]
+    },
+    {
+      "title": "The Spatial Propogation of Wage Inequality",
+      "coauthors": [
+        { "name": "Sergey Nigai", "url": "https://sites.google.com/site/sergeynigai/home" }
+      ]
+    },
+    {
+      "title": "Uyghur Forced Labor Prevention Act and Global Trade in Textile Supply Chains",
+      "coauthors": []
+    }
+  ],
+  "working_papers": [
+    {
+      "title": "Effects of U.S. Export Controls on Chinese Firms",
+      "url": "docs/papers/AHS_Entity_List.pdf",
+      "coauthors": [
+        { "name": "Mark Albertson" },
+        { "name": "Miguel Sarzosa", "url": "https://www.msarzosa.com" }
+      ],
+      "abstract": "The United States has increasingly relied on export controls as a central instrument of economic statecraft, particularly in its efforts to restrict diffusion of key technologies to firms in the People's Republic of China (PRC). Despite the rapidly expanding use of export controls against the PRC, little empirical evidence exists on how these policies affect the financial performance of the foreign firms that become subject to them. This paper utilizes Moody's Orbis database to construct the largest possible sample of both treated and control firms and applies modern difference-in-difference and event-study estimators to identify the causal effects of export-controls. Our results indicate that adding firms to the BIS Entity List causes significant declines in key measures of financial health such as revenue, employment, and assets but does not significantly impact indicators such as solvency ratio that may predict a firm's survival. These findings suggest that U.S. export controls reduce the size of listed PRC firms but, on average, do not force them out of business."
+    },
+    {
+      "title": "Derisking in the time of Decoupling: U.S. Critical Supply Chains and Reliance on China",
+      "url": "docs/papers/howard_underwood.pdf",
+      "coauthors": [
+        { "name": "Aspen Underwood", "url": "https://aspenunderwood.github.io/" }
+      ],
+      "extra_links": [
+        { "label": "MITRE Policy Report", "url": "https://www.mitre.org/news-insights/publication/de-risking-us-supply-chains-era-decoupling" }
+      ],
+      "abstract": "Growing geopolitical tensions between the U.S. and China have compounded concerns about supply chain resiliency, emphasizing the importance of widening supply-chain relationships with other partner nations. Using firm-level import data from the U.S. Census, this study quantifies the sunk costs firms incur when de-risking critical supply chains by transitioning to an alternative supplier country and constructs two policy scenarios of supply chain disruptions. The results suggest that the sunk costs firm face in the first year of importing limit firms' ability to respond to trade shocks. Our scenario analysis suggests an unexpected decoupling from China could decrease U.S. firm's operating profits by 15%-50% across critical sectors, but preemptive changes in trade policy that decreases tariffs for non-Chinese nations could offset these losses in some sectors. These results highlight the importance of policies aimed at reducing reliance on China and diversifying supply chains, such as promoting domestic production of critical goods, incentivizing diversification of supply chains, and strengthening alliances and trade relationships with other countries."
+    },
+    {
+      "title": "Labor Market Frictions and Endogenous Production Network Formation",
+      "url": "docs/papers/Howard_matching.pdf",
+      "coauthors": [],
+      "abstract": "This paper studies the interaction of labor-market frictions and endogenous production-network formation in firms' decisions on employment, sourcing and production, within the context of trade policy. I construct a quantitative general-equilibrium model featuring worker-firm and firm-to-firm matching in the production process. I calibrate the model and investigate how trade policy and labor-market efficiency affect production-network density, trade flows, unemployment and wage inequality. The model shows a 1.5% decrease in relative labor-market frictions in one country can lead to a 0.1% decrease in the partner country's relative number of downstream production-network linkages. I explore how heterogeneity in firm-to-firm matching costs determines the effect of a trade shock on wage inequality. I show that a protectionist tariff by one country leads to increases in domestic long-run unemployment and real wages. Examining these channels separately leads to sizable quantitative and qualitative changes in the predicted outcomes of trade policy."
+    }
+  ],
+  "publications": [
+    {
+      "title": "The Impacts of Intellectual-Property Related Preferential Trade Agreements on Bilateral Patent Applications",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/roie.12783",
+      "coauthors": [
+        { "name": "Keith Maskus", "url": "https://www.colorado.edu/faculty/kmaskus/" },
+        { "name": "William Ridley", "url": "https://sites.google.com/site/ridleywc" }
+      ],
+      "venue": "Review of International Economics, 2025",
+      "extra_links": [
+        { "label": "VoxEU Handbook Chapter", "url": "https://cepr.org/system/files/publication-files/187110-beyond_trade_how_deep_trade_agreements_shape_non_trade_outcomes.pdf#p42" }
+      ],
+      "abstract": "Intellectual property rights (IPRs) are a central emphasis in the negotiation of \"deep\" preferential trade agreements (PTAs) containing provisions on domestic regulatory policy. These provisions require member countries to adopt IPRs standards going beyond the baseline requirements of the World Trade Organization's TRIPS agreement. We use a structural gravity framework to study the effects of membership in such PTAs on bilateral international patenting, considering both within-agreement applications and registrations between members and non-members. We explore the heterogeneity of these effects arising from various attributes of different agreements. Our findings suggest that strong and enforceable IPRs standards in PTAs generate positive impacts on international patenting, albeit with significant disparities across agreement types. Agreements with multiple TRIPS-Plus norms increase patenting among members compared with patenting from outside those areas, while other types encourage more patenting from non-members."
+    },
+    {
+      "title": "Regional Environmental Quality and International Trade: The Role of Production Networks",
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/729124",
+      "coauthors": [
+        { "name": "Doyoung Park", "url": "http://doyoungpark.com/" },
+        { "name": "William Ridley", "url": "https://sites.google.com/site/ridleywc" }
+      ],
+      "venue": "Journal of the Association of Environmental and Resource Economists, 2024",
+      "abstract": "This paper studies the interaction between trade liberalization and firm production networks in shaping spatial differences in environmental quality within countries. We first analyze the effect of inter-firm trade in intermediate goods on the level of total regional emissions and average emission intensities. Second, we study the effect of trade liberalization on the spatial distribution of firms within countries in a setting with firm-to-firm production networks. We find that regions with relative proximity to foreign markets attract more firms as international trade barriers diminish. This leads to higher total emissions in such regions due to agglomeration forces, whereas spatial selection together with production networks leads to a decline in average emission intensities."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Text2Trade: A Semantic Search System with Monte Carlo Dropout Uncertainty Quantification for HS Code Retrieval",
+      "url": "docs/papers/Text2Trade.pdf",
+      "coauthors": [
+        { "name": "Meenu Ravi" },
+        { "name": "Grace Kenneally" },
+        { "name": "Ari Fleischer" }
+      ],
+      "abstract": "The efficient and accurate identification of Harmonized System (HS) codes is crucial in the import and export process of commodities for international trade. This six-digit globally standardized numerical classification is important for describing products, assessing tariffs, and conducting trade analysis. However, assigning HS codes with speed and accuracy is challenging due to the complex hierarchical structure, large and dynamic set of codes, and subtle distinctions in product terminology. Recent advances in machine learning and information retrieval have improved HS code retrieval; however, existing approaches often struggle to capture semantic meaning about products, process long product descriptions, and remain largely proprietary in nature. To address these challenges, we present Text2Trade, a semantic search system that recommends relevant HS codes based on product descriptions. Our approach fine-tunes a bi-encoder with Multiple Negatives Ranking Loss (MNRL) and integrates Monte Carlo dropout (MCD) for both reranking and uncertainty quantification, trained on diverse and publicly available trade data. Through comprehensive experiments and an ablation study, we demonstrate that Text2Trade consistently outperforms several baseline models, achieving a Recall@10 of 97.8%. These findings highlight the system's potential to enhance the efficiency of trade policy analysis, helping the broader trade and policy community.",
+      "accordion_label": "Abstract"
+    },
+    {
+      "title": "The Impact of Offshoring and Outsourcing Firm Behaviors on Labor Market Outcomes",
+      "coauthors": [],
+      "note": "Census Project hosted at the Georgetown Massive Data Institute FSRDC",
+      "abstract": "This project proposes to answer the following questions. What role do supply chains play in shaping wage inequality? How do these supply chains vary by firm productivity levels, and is there a systematic differential response of these supply chains to an international trade shock? If wages are determined by supply chains, this implies that there will be nominal wage consequences for workers in all sectors of the importing economy. How much do changes, due to trade shocks, in firm-level supply-chains spillover into non-import competing sectors? Within all sectors are there heterogeneous responses to trade shocks that vary by firm size and what are the implications of this heterogeneity?",
+      "accordion_label": "Description"
+    }
+  ]
+}
