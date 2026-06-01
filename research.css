@@ -14,6 +14,18 @@
 	font-weight: 400;
 }
 
+.section > .paper > strong:first-child {
+	display: block;
+	font-variant: small-caps;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	color: rgb(80, 80, 80);
+	border-top: 1px solid rgb(180, 180, 180);
+	padding-top: 10px;
+	margin-bottom: 4px;
+}
+
 .paper small {
 	font-family: 'Dosis', sans-serif;
 	font-size: 15px;
