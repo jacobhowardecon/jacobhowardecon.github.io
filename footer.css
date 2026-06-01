@@ -61,3 +61,12 @@ button:hover {
 }
 
 .social:hover { transform: scale(1.25); }
+
+.footer-disclaimer {
+	text-align: center;
+	font-size: 11px;
+	color: rgb(150, 150, 150);
+	margin: 8px auto 2px;
+	max-width: 600px;
+	line-height: 1.4;
+}
