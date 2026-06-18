@@ -50,7 +50,7 @@ body {
 
 	.header {
 		/*background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),*/
-		background: url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/buffalo.jpg");
+		background: url("photos/buffalo.jpg");
 		height: 500px;
 		min-height: 100%;
 		background-attachment: fixed;

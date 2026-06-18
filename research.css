@@ -118,7 +118,7 @@ button:hover {text-decoration: underline;}
 
 .header {
 	/*background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),*/
-	background: url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/Mesa_Arch.jpg");
+	background: url("photos/Mesa_Arch.jpg");
 	max-width: 100%; 
     max-height: 100%;
 	height: 30vh;
@@ -137,7 +137,7 @@ button:hover {text-decoration: underline;}
 
 .header2 {
 	/*background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)),*/
-	background: url("https://raw.githubusercontent.com/jacobhowardecon/jacobhowardecon.github.io/master/photos/leadville.jpg");
+	background: url("photos/leadville.jpg");
 	max-width: 100%; 
     max-height: 100%;
 	height: 30vh;
