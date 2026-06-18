@@ -120,16 +120,20 @@
    Mobile Spacing & Readability Improvements
    ============================================= */
 
+/* Hide the decorative dark bar whenever the index layout stacks (< 1116px)
+   or on any page at mobile widths. On wider viewports it visually anchors
+   the fixed navbar above the side-by-side photo/text layout. */
+@media screen and (max-width: 1115px) {
+  .fixed_topnav > div[style*="background-color: rgb(50,50,50)"],
+  .fixed_topnav > div[style*="background-color:rgb(50,50,50)"] {
+    display: none !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /* Better base font sizing on small screens */
   * {
     font-size: 16px;
-  }
-
-  /* The dark decorative spacer bar serves no purpose when nav is not fixed */
-  .fixed_topnav > div[style*="background-color: rgb(50,50,50)"],
-  .fixed_topnav > div[style*="background-color:rgb(50,50,50)"] {
-    display: none !important;
   }
 
   /* Give content areas room to breathe */
