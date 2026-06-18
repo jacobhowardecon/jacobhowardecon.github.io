@@ -42,8 +42,9 @@
 	}
 
 .column1of3	img {
-	    max-width: 100%;
-	    max-height: 100%;
+	    width: 100%;
+	    height: auto;
+	    object-position: top;
 	}
 
 .column2of3 {
